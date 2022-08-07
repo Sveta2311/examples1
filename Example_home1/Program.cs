@@ -11,6 +11,7 @@ if (double.TryParse(number_As, out number_Ai))
       if (number_Ai == number_Bi)
       {
          Console.WriteLine("Числа совпадают: " + number_As);
+         return;
       }
       else
       {
