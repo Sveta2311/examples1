@@ -22,6 +22,7 @@ if (num > num2)
 }
 
 else
+    Console.WriteLine("Натуральные числа в веденном промежутке: ");
     PrintNaturalsNambers(num, num2);
 
 string PrintNaturalsNambers(int start, int end)
